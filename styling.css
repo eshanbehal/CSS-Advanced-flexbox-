@@ -13,7 +13,14 @@
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+/*    aligning the flex items inside a flex box--- here row are alligned horizontally and coloums are alligned vertically*/
+    
+    justify-content: center;
+    
+/*    now in order to allign items for row vertically or horizontally for coloumns we use align-items property*/
+    
+    align-items: stretch;
     
 }
 
