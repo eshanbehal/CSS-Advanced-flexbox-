@@ -22,6 +22,10 @@
     
     align-items: stretch;
     
+/*    now inorder to allign rows and coloumns inside a flex box we use align-content property. when we allign rows -- these are alligned vertically and coloumns horizontally.*/
+    
+    align-content: center;
+    
 }
 
 /*style divs inside a container*/
