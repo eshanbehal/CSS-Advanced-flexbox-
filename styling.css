@@ -43,11 +43,19 @@
     flex-shrink: 1;
     flex-basis: 100px;
 */
-    flex: 1 1 150px;
+/*    flex: 1 1 150px;*/
     
+/*    flex: 0 1 auto;*/
+/*    flex: initial;*/
+    
+/*       flex: 1 1 auto;*/
+/*         flex: auto;*/
+    
+/*    flex: 0  0 auto;*/
+    flex: none;    
 }
 
 #facebook{
     font-size: 10px;
-    flex-grow: 4;
+/*    flex-grow: 4;*/
 }
