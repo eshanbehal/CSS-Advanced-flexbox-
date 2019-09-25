@@ -52,7 +52,14 @@
 /*         flex: auto;*/
     
 /*    flex: 0  0 auto;*/
-    flex: none;    
+/*    flex: none;    */
+/*    flex: 1; -- this means we are setting the flex-grow to 1.*/
+    
+/*    flex: 1 2; --this means we are setting flex-grow and flex-shrink property.*/
+    
+/*    flex: 10%; --this means that we are only taking into consideration the flex-basis.*/
+    flex: 20%;
+    
 }
 
 #facebook{
