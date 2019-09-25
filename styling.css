@@ -38,8 +38,16 @@
     margin: 1px;
     color: aliceblue;
     border: 3px #C4DFE6 solid;
+/*
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 100px;
+*/
+    flex: 1 1 150px;
     
+}
+
+#facebook{
+    font-size: 10px;
+    flex-grow: 4;
 }
