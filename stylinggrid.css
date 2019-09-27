@@ -1,0 +1,22 @@
+/*lets make sure that the dimensions of any box includes its border and padding, it makes the process of sizing our elements easy.*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*styling the container*/
+
+.container {
+    
+    background-color: #07575B;
+    
+}
+    
+.container > div {
+  
+  background-color: #66a5AD;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    color: aliceblue;
+    border: 3px #C4DFE6 solid;
