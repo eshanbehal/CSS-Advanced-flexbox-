@@ -7,8 +7,16 @@
 /*styling the container*/
 
 .container {
-    
+/*    height: 300px;*/
     background-color: #07575B;
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px;
+/*    grid-template-columns: 100px 100px 100px 100px;*/
+/*    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+/*    here 'fr' means free available space.*/
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    grid-gap: 5px;
+    padding: 7px;
     
 }
     
@@ -16,7 +24,5 @@
   
   background-color: #66a5AD;
     text-align: center;
-    padding: 20px;
-    margin: 1px;
     color: aliceblue;
     border: 3px #C4DFE6 solid;
