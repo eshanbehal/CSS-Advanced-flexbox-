@@ -7,21 +7,24 @@
 /*styling the container*/
 
 .container {
-/*    height: 300px;*/
+    height: 100vh;
     background-color: #07575B;
     display: grid;
-    grid-template-rows: repeat(4, 45px);
+    grid-template-rows: 50px 1fr 50px;
 /*    grid-template-columns: 100px 100px 100px 100px;*/
 /*    grid-template-columns: 1fr 1fr 1fr 1fr;*/
 /*    here 'fr' means free available space.*/
-    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    grid-template-columns: 20% 1fr 20%;
     grid-gap: 5px;
     padding: 7px;
+    grid-template-areas: "apple apple apple"
+        "facebook microsoft samsung"
+        "google google google";
     
 /*    for setting the height of any extra rows outside the template(inplicit grid)*/
 /*    explicit grid-elemts inside the grid template.*/
     
-    grid-auto-rows: 60px;
+    grid-auto-rows: 70px;
 /*    grid-auto-flow: column;*/
 /*    grid-auto-flow: row;*/
 /*    grid-auto-flow: dense;*/
@@ -35,3 +38,19 @@
     text-align: center;
     color: aliceblue;
     border: 3px #C4DFE6 solid;
+}
+#apple{
+    grid-area: apple;
+}
+#facebook{
+    grid-area: facebook;
+}
+#microsoft{
+    grid-area: microsoft;
+}
+#samsung{
+    grid-area: samsung;
+}
+#google{
+    grid-area: google;
+}
