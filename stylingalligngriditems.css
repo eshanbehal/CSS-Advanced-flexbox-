@@ -25,6 +25,14 @@
 /*    placing items == ver hor;*/
     
     place-items: center center;
+    
+/*    aligning the whole grid vertically=='align-content'*/
+/*    align-content: center;*/
+    
+/*    alligning the whole content horizontally=='justify-content'*/
+/*    justify-content: center;*/
+    
+    place-content: center center;
 }
 
 /*grid items*/
